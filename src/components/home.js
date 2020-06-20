@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Aos from 'aos'
+import 'aos/dist/aos.css';
 
 // import "../assets/vendor/icofont/icofont.min.css" 
 // import "../assets/vendor/boxicons/css/boxicons.min.css"
@@ -9,6 +11,10 @@ import React, { Component } from 'react';
 
 
 class Home extends Component {
+
+  // componentDidMount(){
+  //   Aos.init() 
+  // }
     render() {
         return (
             <div>
@@ -25,7 +31,7 @@ class Home extends Component {
       <div class="row mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
         <div class="col-xl-2 col-md-4 col-6">
           <div class="icon-box">
-            <i className="ri-store-line" />
+            <i className="ri-store-line"></i>
             <h3><a href="">Lorem Ipsum</a></h3>
           </div>
         </div>

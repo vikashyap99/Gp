@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../assets/css/style.css'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css';
 
 class Contact extends Component {
     render() {
@@ -79,6 +80,7 @@ class Contact extends Component {
 
       </div>
     </section>
+    <a href="#" class="back-to-top"><i class="ri-arrowup-line"></i></a>
             </div>
         );
     }

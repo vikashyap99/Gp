@@ -90,7 +90,7 @@ function registerValidSW(swUrl, config) {
               }
             }
           }
-        };
+        }; 
       };
     })
     .catch(error => {

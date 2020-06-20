@@ -8,16 +8,19 @@ import React, { Component } from 'react';
 
 class Header extends Component {
     render() {
+
+      
         return (
-            <div>
-                <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center justify-content-between">
+            <div  >
+                <header id="header" class="fixed-top bg-dark transparent" >
+                  <div className={{opacity: '0.5'}}>
+    <div class="container d-flex align-items-center justify-content-between ">
 
       <h1 class="logo"><a href="index.html">Gp<span>.</span></a></h1>
       {/* <!-- Uncomment below if you prefer to use an image logo --></div>
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--> */}
 
-      <nav class="nav-menu d-none d-lg-block">
+      <navbar-dark class="nav-menu d-none d-lg-block ">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -44,10 +47,11 @@ class Header extends Component {
           <li><a href="#contact">Contact</a></li>
 
         </ul>
-      </nav>
+      </navbar-dark>
 
       <a href="#about" class="get-started-btn scrollto">Get Started</a>
 
+    </div>
     </div>
   </header>
             </div>

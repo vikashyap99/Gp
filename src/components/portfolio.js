@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../assets/css/style.css'
-
+import OwlCarouselTestimonial from 'react-owl-carousel';  
+import 'owl.carousel/dist/assets/owl.carousel.css';  
+import 'owl.carousel/dist/assets/owl.theme.default.css'; 
 
 class Portfolio extends Component {
     render() {
@@ -213,7 +215,13 @@ class Portfolio extends Component {
     <section id="testimonials" class="testimonials">
       <div class="container" data-aos="zoom-in">
 
-        <div class="owl-carousel testimonials-carousel">
+      <div class='container-fluid' >            
+        <OwlCarouselTestimonial  items={1}  
+          className="owl-theme"  
+          loop  
+          nav  
+          margin={4}
+          autoplay ={true} > 
 
           <div class="testimonial-item">
             <img src={require("../assets/img/testimonials/testimonials-1.jpg")} class="testimonial-img" alt=""/>
@@ -270,7 +278,7 @@ class Portfolio extends Component {
               <i class="bx bxs-quote-alt-right quote-icon-right"></i>
             </p>
           </div>
-
+          </OwlCarouselTestimonial> 
         </div>
 
       </div>

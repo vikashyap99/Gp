@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.min.css';
+import 'remixicon/fonts/remixicon.css'
+import 'aos/demo/css/styles.css'
+import "boxicons/css/boxicons.min.css"
+
 import App from './App';
 // import "./assets/vendor/icofont/icofont.min.css" 
-// import "./assets/vendor/boxicons/css/boxicons.min.css"
-// import "./assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+// import "boxicons/css/boxicons.min.css"
+// import "react-responsive-carousel\lib\stylescarousel.min.css"
 // import "./assets/vendor/venobox/venobox.css" 
 // import "./assets/vendor/remixicon/remixicon.css"
 // import "./assets/vendor/aos/aos.css"

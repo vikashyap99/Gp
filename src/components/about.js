@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import '../assets/css/style.css'
 
+import OwlCarouselClients from 'react-owl-carousel';  
+import 'owl.carousel/dist/assets/owl.carousel.css';  
+import 'owl.carousel/dist/assets/owl.theme.default.css';  
+
 
 class About extends Component {
     render() {
+      
         return (
             <div>
                 <section id="about" class="about">
@@ -38,7 +43,25 @@ class About extends Component {
     <section id="clients" class="clients">
       <div class="container" data-aos="zoom-in">
 
-        <div class="owl-carousel clients-carousel">
+      <div class='container-fluid' >            
+        <OwlCarouselClients items={5}  
+          className="owl-theme"  
+          loop  
+          nav  
+          margin={4}
+          autoplay ={true} >  
+            <img src={require("../assets/img/clients/client-1.png")} alt=""/>
+          <img src={require("../assets/img/clients/client-2.png")} alt=""/>
+          <img src={require("../assets/img/clients/client-3.png")} alt=""/>
+          <img src={require("../assets/img/clients/client-4.png")} alt=""/>
+          <img src={require("../assets/img/clients/client-5.png")} alt=""/>
+          <img src={require("../assets/img/clients/client-6.png")} alt=""/>
+          <img src={require("../assets/img/clients/client-7.png")} alt=""/>
+          <img src={require("../assets/img/clients/client-8.png")} alt=""/>
+      </OwlCarouselClients>  
+      </div>  
+
+        {/* <div class="owl-carousel clients-carousel">
           <img src={require("../assets/img/clients/client-1.png")} alt=""/>
           <img src={require("../assets/img/clients/client-2.png")} alt=""/>
           <img src={require("../assets/img/clients/client-3.png")} alt=""/>
@@ -47,7 +70,7 @@ class About extends Component {
           <img src={require("../assets/img/clients/client-6.png")} alt=""/>
           <img src={require("../assets/img/clients/client-7.png")} alt=""/>
           <img src={require("../assets/img/clients/client-8.png")} alt=""/>
-        </div>
+        </div> */}
 
       </div>
     </section>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../assets/css/style.css'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css';
 
 class Service extends Component {
     render() {
