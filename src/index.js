@@ -7,7 +7,7 @@ import 'remixicon/fonts/remixicon.css'
 import 'aos/demo/css/styles.css'
 import "boxicons/css/boxicons.min.css"
 
-import App from './App';
+import App from './App'; 
 // import "./assets/vendor/icofont/icofont.min.css" 
 // import "boxicons/css/boxicons.min.css"
 // import "react-responsive-carousel\lib\stylescarousel.min.css"
