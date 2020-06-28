@@ -16,7 +16,7 @@ class Header extends Component {
                   <div className={{opacity: '0.5'}}>
     <div class="container d-flex align-items-center justify-content-between ">
 
-      <h1 class="logo"><a href="index.html">Gp<span>.</span></a></h1>
+      <h1 class="logo"><a href="index.html">Genesis Forger<span>.</span></a></h1>
       {/* <!-- Uncomment below if you prefer to use an image logo --></div>
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--> */}
 

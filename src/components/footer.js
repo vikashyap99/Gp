@@ -12,7 +12,7 @@ class Footer extends Component {
 
           <div class="col-lg-3 col-md-6">
             <div class="footer-info">
-              <h3>Gp<span>.</span></h3>
+              <h3>Genesis Forger<span>.</span></h3>
               <p>
                 A108 Adam Street 
                 NY 535022, USA
@@ -69,7 +69,7 @@ class Footer extends Component {
         &copy; Copyright <strong><span>Gp</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">Genesis Forger</a>
        
       </div>
     </div>
